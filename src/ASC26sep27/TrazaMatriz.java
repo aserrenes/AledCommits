@@ -19,8 +19,6 @@ public class TrazaMatriz {
 	
 	
 	private static double calculaTrazaMatriz(double matriz[][]) {
-		double traza;
-		
 		if( (matriz==null) || (matriz.length == 0 ) // es nula
 			|| (matriz.length != (matriz[1]).length) ) // no es cuadrada
 		{
