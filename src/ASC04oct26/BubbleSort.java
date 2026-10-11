@@ -24,7 +24,7 @@ package ASC04oct26;
 	            intercambiado = false;
 
 	            // Bucle interno para comparar elementos adyacentes
-	            for (int j = 0; j < n - i - 1; j++) {
+	            for (int j = 0, z =3; j < n - i - 1; j++) {
 	                boolean bIntercambiar = false;
 
 	                // Evaluamos la condición según el orden solicitado
